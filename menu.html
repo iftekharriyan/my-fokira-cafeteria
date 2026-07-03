@@ -4,15 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Section</title>
+
+<style>
+    body {
+        font-family: "Times New Roman", serif;
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3 {
+        color: brown;
+    }
+
+    #back-to-home {
+        
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        margin: 20px 15px;
+        }
+    
+    p {
+        color: #333;
+    }
+
+   
+    }
+    </style>
+
+
 </head>
 <body>
-    <h1>Menu Section</h1>
-    <p><strong>Welcome to the menu section!</strong></p>
+    <p style="text-align: center; color: brown; font-size: 64px;"><b>Menu Section</b></p>
+    <p style="text-align: center; color: #333; font-size:  28px;">Welcome to the menu section!</p>
     <hr>
-    <section>
-        <img width="300" height="150" src="images/breakfast.webp" alt="">
-        <p><h1>Breakfast</h1></p>
-    <ul>
+    <section style="text-align: left; margin-top: 20px;">
+        <img width="740" height="494" src="images/breakfast.webp" alt="">
+        <p style="font-size: 36px;"><b>Breakfast</b></p>
+    <ul style="list-style-type: none; padding: 0; font-size: 24px;">
         <li>Paratha</li>
         <li>Roti</li>
         <li>Omelette</li>
@@ -22,11 +57,11 @@
         <li>Vegetable Soup</li>
     </ul>
     </section>
-
-   <section>
-    <img width="300" height="150" src="images/fast food.avif" alt="">
-     <p><h1>Fast Food</h1></p>
-    <ul>
+<hr>
+   <section style="text-align: right; margin-top: 20px;">
+    <img width="740" height="494" src="images/fast food.avif" alt="">
+     <p style="font-size: 36px;"><b>Fast Food</b></p>
+    <ul style="list-style-type: none; padding: 0; font-size: 24px;">
         <li>Chicken Burger</li>
         <li>Beef Burger</li>
         <li>Chicken Sandwich</li>
@@ -38,8 +73,10 @@
     </ul>
    </section>
 
+<section style="text-align: center; margin-top: 20px;">
+     <a href="index.html" id="back-to-home">Back to Home</a>
+</section>
 
-
-    <a href="index.html"><h3>Back to Home</h3></a>
+   
 </body>
 </html>

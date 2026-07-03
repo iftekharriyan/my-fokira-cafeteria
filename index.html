@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Fokira Cafeteria</title>
+
+<style>
+    body {
+        font-family: "Times New Roman", serif;
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3 {
+        color: brown;
+    }
+
+    p {
+        color: #333;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    input[type="button"] {
+        background-color: brown;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 10px 5px;
+    }
+
+    input[type="button"]:hover {
+        background-color: darkbrown;
+    }
+</style>
+
 </head>
 <body>
-    <h1>My Fokira Cafeteria </h1>
-    <p><strong>Welcome to my cafeteria!</strong></p>
-    <img src="images/cafe cover.jpg" alt="">
+    <p style="text-align: center; color:brown; font-size: 50px;"><b>My Fokira Cafeteria</b></p>
+    <p style="text-align: center; color:brown; font-size: 30px;">Welcome to my cafeteria!</p>
     <hr>
+    <img style="display: block; margin: 0 auto; border: 4px solid brown; border-radius: 20px;" src="images/cafe cover.jpg" alt="Cafeteria Cover">
+   
 
-    <input type="button" value="All Menu" onclick="window.location.href='menu.html'" style="font-size: 14px; padding: 10px 20px;">
+    <section style="text-align: center; margin-top: 20px;">
+        <input type="button" value="All Menu" onclick="window.location.href='menu.html'" style="font-size: 14px; padding: 10px 20px;">
     <input type="button" value="Online Order" onclick="window.location.href='order.html'" style="font-size: 14px; padding: 10px 20px;">
-    <input type="button" value="Contact Us" onclick="window.location.href='contact.html'" style="font-size: 14px; padding: 10px 20px;">
+    <input type="button" value="Contact Us" onclick="window.location.href='contact.html'" style="font-size: 14px; padding: 10px 20px;"></style>
+    </section>
